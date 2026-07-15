@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giám Đốc Viettel Vĩnh Lợi - Cà Mau</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <style>
+      :root {
+        --viettel-red: #00ee57;
+        --viettel-dark: #1a1a1a;
+        --light-gray: #f8f9fa;
+      }
+      body {
+        font-family: "Roboto", sans-serif;
+        color: #333;
+      }
+      .navbar {
+        background-color: white;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      .navbar-brand img {
+        height: 50px;
+      }
+      .nav-link {
+        font-weight: 600;
+        color: var(--viettel-red) !important;
+      }
+      .section-title {
+        color: var(--viettel-red);
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        position: relative;
+        display: inline-block;
+      }
+      .section-title::after {
+        content: "";
+        width: 60px;
+        height: 4px;
+        background: var(--viettel-red);
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .team-card {
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        transition: all 0.3s;
+      }
+      .team-card:hover {
+        transform: translateY(-8px);
+      }
+      .contact-link {
+        color: var(--viettel-red);
+        text-decoration: none;
+        margin-right: 15px;
+      }
+      .contact-link:hover {
+        color: #c4002c;
+      }
+      footer {
+        background: var(--viettel-dark);
+        color: white;
+        padding: 60px 0 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/logo-viettel-slogan.png" alt="Viettel Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Trang Chủ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Cửa Hàng</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="director.html">Giám Đốc</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="manager.html">Quản Lý</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="staff.html">Nhân Viên</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="py-5 mt-5">
+      <div class="container text-center">
+        <h2 class="section-title mb-5">Giám đốc khu vực</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="team-card">
+              <img
+                src="image/Anh giám đốc.jpg"
+                class="card-img-top"
+                alt="Giám đốc"
+              />
+              <div class="card-body p-4">
+                <h3>Anh Nguyễn Tường Duy</h3>
+                <p class="text-muted">Giám đốc Viettel Vĩnh Lợi - Cà Mau</p>
+                <p>
+                  Giám đốc Khu vực với hơn 10 năm kinh nghiệm tại Viettel,
+                  chuyên sâu trong lĩnh vực viễn thông, công nghệ số và giải
+                  pháp doanh nghiệp. Với tinh thần trách nhiệm cao, tư duy đổi
+                  mới và sự tận tâm với khách hàng, Nguyễn Tường Duy luôn nỗ lực
+                  mang đến những giải pháp công nghệ hiện đại, hiệu quả và bền
+                  vững, góp phần nâng cao giá trị cho khách hàng và đối tác.
+                </p>
+
+                <div class="mt-3">
+                  <a href="tel:0981115118" class="contact-link"
+                    ><i class="bi bi-telephone-fill me-1"></i> Gọi: 0981 115
+                    118</a
+                  ><br />
+                  <a href="https://zalo.me/0981115118" class="contact-link"
+                    ><i class="bi bi-chat-dots-fill me-1"></i> Zalo</a
+                  ><br />
+                  <a
+                    href="https://www.facebook.com/profile.php?id=nguyen.van.a"
+                    class="contact-link"
+                    ><i class="bi bi-facebook me-1"></i> Facebook</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center">
+      <div class="container">
+        <p>&copy; 026 Cửa Hàng Viettel Vĩnh Lợi - Cà Mau</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
